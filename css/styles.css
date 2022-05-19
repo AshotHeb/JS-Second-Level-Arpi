@@ -1,0 +1,28 @@
+.burger-menu-icon{
+    font-size: 30px;
+    cursor:pointer;
+}
+.btn{
+    border: 0;
+    background-color:transparent;
+}
+.aside{
+    position: relative;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(117, 91, 169);
+    position: fixed;
+    top:0;
+    left:0;
+    transform: translate(-100%);
+    transition: transform 1s;
+}
+.close-menu-button{
+    position:absolute;
+    right: 10px;
+    top: 10px;
+}
+.close-menu-cross{
+    font-size: 30px;
+    cursor:pointer; 
+}
